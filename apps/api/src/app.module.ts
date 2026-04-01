@@ -5,7 +5,7 @@ import { UrlModule } from './url/url.module';
 @Module({
     imports: [
         MongooseModule.forRoot(
-            'mongodb+srv://shrig:shrig@cluster0.ucwnukt.mongodb.net/practice'
+          // mongourl
         ),
         UrlModule
     ]
