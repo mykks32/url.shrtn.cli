@@ -1,0 +1,14 @@
+{
+  "name": "@url-shrtn/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.7"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
