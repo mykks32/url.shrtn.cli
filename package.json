@@ -1,0 +1,29 @@
+{
+  "name": "url.shrtn.cli",
+  "version": "1.0.0",
+  "description": "A fast and minimal URL shortener CLI in TypeScript",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [
+    "url",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykks32/url.shrtn.cli.git"
+  },
+  "license": "MIT",
+  "author": "mykks32",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev:api": "pnpm --filter @url-shrtn/api run start:dev",
+    "dev:cli": "pnpm --filter @url-shrtn/cli run start",
+    "start:api": "pnpm --filter @url-shrtn/api run start",
+    "start:cli": "pnpm --filter @url-shrtn/cli run start",
+    "test": "pnpm -r run test"
+  }
+}
