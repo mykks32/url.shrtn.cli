@@ -1,11 +1,15 @@
 {
   "name": "@mykks32/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
     "nanoid": "^5.1.7"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
