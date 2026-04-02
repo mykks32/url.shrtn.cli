@@ -8,9 +8,10 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^4.0.3",
     "@nestjs/core": "^10.0.0",
     "@nestjs/mongoose": "^10.0.0",
-    "@nestjs/platform-express": "^11.1.17",
+    "@nestjs/platform-express": "^10.4.22",
     "@url-shrtn/common": "workspace:*",
     "express": "^5.2.1",
     "mongoose": "^7.0.0"

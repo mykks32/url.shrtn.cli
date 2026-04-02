@@ -7,8 +7,5 @@
   },
   "dependencies": {
     "nanoid": "^5.1.7"
-  },
-  "devDependencies": {
-    "typescript": "^6.0.2"
   }
 }
