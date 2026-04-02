@@ -1,5 +1,5 @@
 {
-  "name": "@url-shrtn/cli",
+  "name": "@mykks32/cli",
   "version": "1.0.0",
   "bin": {
     "url.shrtn": "dist/index.js"
