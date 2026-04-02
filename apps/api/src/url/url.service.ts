@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Url, UrlDocument } from './url.schema';
-import { generateShortCode } from '@url-shrtn/common';
+import { generateShortCode } from '@mykks32/common';
 
 @Injectable()
 export class UrlService {
